@@ -1,5 +1,5 @@
 {
-	"name": "@jornheinemann/eslint-config-typescript",
+	"name": "@joernheinemann/eslint-config-typescript",
 	"version": "1.0.0",
 	"description": "eslint configs with typescript from Jörn Heinemann",
 	"author": {

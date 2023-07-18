@@ -1,16 +1,19 @@
 {
 	"name": "@joernheinemann/eslint-config-typescript",
-	"version": "1.0.0",
+	"version": "2.0.0",
 	"description": "eslint configs with typescript from Jörn Heinemann",
 	"author": {
 		"name": "Jörn Heinemann",
 		"email": "joernheinemann@gmx.de"
 	},
 	"license": "MIT",
+	"scripts": {
+		"lint": "eslint --ext \".ts\" . --config index.js"
+	},
 	"dependencies": {
-		"@typescript-eslint/eslint-plugin": "^4.22.1",
-		"@typescript-eslint/parser": "^4.22.1",
-		"eslint": "^7.25.0"
+		"@typescript-eslint/eslint-plugin": "^6.1.0",
+		"@typescript-eslint/parser": "^6.1.0",
+		"eslint": "^8.45.0"
 	},
 	"publishConfig": {
 		"access": "public"
